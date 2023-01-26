@@ -1,2 +1,24 @@
 # Projekt inżynierski Dariusz Jarosz
-Temat pracy: Platforma do zarządzania oraz poglądu sprężarek powietrza
+Temat pracy: Platforma rozwojowa  do zarządzania sprężarkami powietrza
+
+Opis pracy: Celem projektu jest stworzenie platformy pasywnej której zadanie będzie polegało na ciągłym zbieraniu informacji na temat stanu sprężarki.
+            Każdy klient będzie posiadał własne konto na którym będzie miał dostęp do kupionych sprężarek. W planach jest podgląd parametrów pracy sprężarki oraz                     tworzenie raportów na ich podstawie z dowolnego miejsca i w dowolnym momencie.
+            Platforma będzie aplikacją typu cloud-native, hostowaną dzieki usłudze Azure app service. Co pozwoli w przyszłości na pełną skalowalność wraz ze wzrostem
+            bazy klientów.
+            Sama aplikacja posłuży zarówno klientowi jak i producentowi sprężarek. W przypadku klientów pozwoli na większą kontrolę oraz swobodę monitorowania procesów
+            produkcyjnych.
+            Natomiast w przypadku producentów pozwoli zebrać bardzo ważne dane które mogą zostać wykorzystane w celu dalszego rozwoju maszyn jak i marketingu.
+
+
+Wstępny Spis treści:
+
+            WSTĘP
+            Spis treści
+            1. Opis architektury
+            2. Bezpieczeństwo aplikacji
+            3. Frontend
+            4. Funkcjonalności oraz jej wdrożenia
+            5. Integracja platformy ze sterownikiem
+            6. Napotkane problemy
+            7. Podsumowanie
+            Bibliografia
