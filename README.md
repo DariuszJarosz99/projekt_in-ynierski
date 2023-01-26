@@ -25,6 +25,7 @@ Wstępny Spis treści:
             
             
 Bibliografia:
+
             1. Brikman Y. Terraform: Up and Running: Writing Infrastructure as Code
             2. Laszewski T., Kamal A., Farr E. Cloud Native Architectures: Design high-availability and cost-effective applications for the cloud
             3. Podjarny G. Cloud Native Application Security
