@@ -22,3 +22,11 @@ Wstępny Spis treści:
             6. Napotkane problemy
             7. Podsumowanie
             Bibliografia
+            
+            
+Bibliografia:
+            1. Brikman Y. Terraform: Up and Running: Writing Infrastructure as Code
+            2. Laszewski T., Kamal A., Farr E. Cloud Native Architectures: Design high-availability and cost-effective applications for the cloud
+            3. Podjarny G. Cloud Native Application Security
+            4. Jakaś książka o sprężonym powietrzu oraz ogólnie o sprężarkach ale jeszcze nie jestem pewny
+            5. 
