@@ -30,4 +30,7 @@ Bibliografia:
             2. Laszewski T., Kamal A., Farr E. Cloud Native Architectures: Design high-availability and cost-effective applications for the cloud
             3. Podjarny G. Cloud Native Application Security
             4. Jakaś książka o sprężonym powietrzu oraz ogólnie o sprężarkach ale jeszcze nie jestem pewny
-            5. 
+            5. Cloud Native DevOps with Kubernetes
+            6. Continuous delivery with docker and Jenkins
+            7. Docker in action
+
