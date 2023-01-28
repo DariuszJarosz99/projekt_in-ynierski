@@ -33,4 +33,5 @@ Bibliografia:
             5. Cloud Native DevOps with Kubernetes
             6. Continuous delivery with docker and Jenkins
             7. Docker in action
+            8. Protokoły komunkacji
 
