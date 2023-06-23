@@ -18,8 +18,15 @@ Pomijając aspekt podglądu pracy samej sprężarki, platforma będzie w stanie 
 Klient który uzyska dostęp do platformy dostanie unikalne dane do logowania gdzie będzie widział wszystkie przypisane mu sprężarki(sterowniki w sprężarkach).
 (zastanawiam się nad innymi formami logowania i weryfikacji użytkownika aby zapewnić jak największe bezpieczeństwo)
 
-Forma ostateczna projektu to stworzenie prototypu który będzie w stanie obsługiwać bazę danych z użytkownikami, będzie w pełni cloud native aby zapewnić pełną skalowalność wraz ze wzrostem liczby klientów. Jeżeli uda mi się dogadać z jedną firmą to sterowniki które tworzą będą podłączone do platformy i będzie można na bieżąco zbierać informacje i oferować pełny podgląd. Jeżeli to się nie uda będę je po prostu jakoś symulował. Pisemna część będzie czysto dopełniająca. Chciałbym skupić się na stronie technicznej całej platformy skupiając się na następujących priorytetach: Działanie samej aplikacji > Stworzenie infrastruktury chmurowej > Frontend > Część opisowa
+Forma ostateczna projektu to stworzenie prototypu który będzie w stanie obsługiwać bazę danych z użytkownikami, będzie w pełni cloud native aby zapewnić pełną skalowalność wraz ze wzrostem liczby klientów. Jeżeli uda mi się dogadać z jedną firmą to sterowniki które tworzą będą podłączone do platformy i będzie można na bieżąco zbierać informacje i oferować pełny podgląd. Jeżeli to się nie uda będę je po prostu jakoś symulował. Ważnym elementem jest również to żeby platforma wspierała urządzenia mobilne. Pisemna część będzie czysto dopełniająca. Chciałbym skupić się na stronie technicznej całej platformy skupiając się na następujących priorytetach: Działanie samej aplikacji > Stworzenie infrastruktury chmurowej > Frontend > Część opisowa
 
+Wstępne założenia technologiczne
+Technologicznie chciałbym użyć w pierwszej kolejności Microsoft Azure Web App Service z użyciem Traffic Managera i load balancera do kierowania ruchem. Ogólnie chciałbym aby infrastruktura była w pełni zintegrowana z Azurem.
+Kolejną rzeczą jest strona graficzna która będzie opierać się o REACTA.JS
+Skrypty do obsługi generowania wykresów będą pisane w pythonie
+Baza danych to PostgresSQL z extension do Azure
+
+Część pisemna pisana będzie prawdopodobnie przy użyciu Latex
 
 Wstępny Spis treści:
 
@@ -45,6 +52,3 @@ Bibliografia:
             6. Continuous delivery with docker and Jenkins
             7. Docker in action
             8. Protokoły komunkacji
-
-
-Pisemna część 
