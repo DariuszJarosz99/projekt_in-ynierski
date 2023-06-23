@@ -1,13 +1,24 @@
 # Projekt inżynierski Dariusz Jarosz
 Temat pracy: Platforma rozwojowa  do zarządzania przemysłowymi sprężarkami powietrza
 
-Opis pracy: Celem projektu jest stworzenie platformy pasywnej której zadanie będzie polegało na ciągłym zbieraniu informacji na temat stanu sprężarki.
-            Każdy klient będzie posiadał własne konto na którym będzie miał dostęp do kupionych sprężarek. W planach jest podgląd parametrów pracy sprężarki oraz                     tworzenie raportów na ich podstawie z dowolnego miejsca i w dowolnym momencie.
-            Platforma będzie aplikacją typu cloud-native, hostowaną dzieki usłudze Azure app service. Co pozwoli w przyszłości na pełną skalowalność wraz ze wzrostem
-            bazy klientów.
-            Sama aplikacja posłuży zarówno klientowi jak i producentowi sprężarek. W przypadku klientów pozwoli na większą kontrolę oraz swobodę monitorowania procesów
-            produkcyjnych.
-            Natomiast w przypadku producentów pozwoli zebrać bardzo ważne dane które mogą zostać wykorzystane w celu dalszego rozwoju maszyn jak i marketingu.
+Opis pracy: Praca polega na stworzeniu platformy rozwojowej obsługującej sterowniki do sprężarek śrubowych.
+Platforma będzie czysto pasywna. Będzie zapewniać w pełni zdalny dostęp do podglądu parametrów pracy sprężarki
+oraz warunków w jakich pracuje. Pozwoli to na pełną swobodę w poglądzie pracy sprężarek oraz aktualnych błędów.
+Tak jak mówiłem platforma będzie pasywna, co oznacza że pozwala tylko na podgląd bez możliwości ingerowania w pracę samej sprężarki.
+Jest to spowodowane zapewnieniem jak największego bezpieczeństwa. Sprężarki powietrza bardzo często są jednymi z kluczowych elementów które
+zapewniają ciągłość produkcji co sprawia że wymaganym jest uniemożliwienie cyber ataków na strukturę firm, ponieważ straty potrafią być kolosalne.
+
+Mam pomysł umożliwiający tryb pół-aktywny który po lokalnym potwierdzeniu przyznania dostępu pozwoli na pewne ingerencję w parametry pracy sprężarki.
+
+Pomijając aspekt podglądu pracy samej sprężarki, platforma będzie w stanie sklejać te dane w wykresy które będą służyć do takich rzeczy jak
+
+- ocena opłacalności montażu falownika
+- ocena jakości i wydajności pracy sprężarki
+
+Klient który uzyska dostęp do platformy dostanie unikalne dane do logowania gdzie będzie widział wszystkie przypisane mu sprężarki(sterowniki w sprężarkach).
+(zastanawiam się nad innymi formami logowania i weryfikacji użytkownika aby zapewnić jak największe bezpieczeństwo)
+
+Forma ostateczna projektu to stworzenie prototypu który będzie w stanie obsługiwać bazę danych z użytkownikami, będzie w pełni cloud native aby zapewnić pełną skalowalność wraz ze wzrostem liczby klientów. Jeżeli uda mi się dogadać z jedną firmą to sterowniki które tworzą będą podłączone do platformy i będzie można na bieżąco zbierać informacje i oferować pełny podgląd. Jeżeli to się nie uda będę je po prostu jakoś symulował.
 
 
 Wstępny Spis treści:
